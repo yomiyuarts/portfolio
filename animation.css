@@ -1,8 +1,9 @@
 .portfolio-body {
     background-image: url('/assets/pinkscallopbg.PNG');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top center;
+    background-attachment: fixed;
 
     top: 0;
     left: 0;
