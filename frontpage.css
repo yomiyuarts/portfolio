@@ -1,0 +1,40 @@
+.intro {
+display: flex;
+gap: 30px;
+color: #515151;
+margin-bottom: 1px;
+top: 10vh;
+width: 95%;
+position: relative;
+z-index: 2;
+justify-content: center;
+align-items: center;
+margin: 0 auto; 
+}
+
+.imageko img {
+height: 100vh;
+animation: fadeRise 1.2s ease-out forwards;
+}
+
+.inside-intro {
+justify-content: left;
+width: 32%;
+text-align: justify;
+}
+
+.inside-intro h1 {
+font-size: 6vh;
+font-family: 'Inknut Antiqua', serif;
+font-weight: bold;
+color: #515151;
+position: relative;
+animation: fadeRise 1.2s ease-out forwards;
+}
+
+.inside-intro p {
+font-size: 2.5vh;
+color: #515151;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+animation: fadeRise 1.2s ease-out forwards;
+}

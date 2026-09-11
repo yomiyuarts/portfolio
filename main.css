@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: #f0f0f0;
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: #D9D9D9;
+  color: #515151;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 95vw;
+  height: 10vh;
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+font-size: 6vh;
+font-family: 'Inknut Antiqua', serif;
+font-weight: bold;
+margin-right: 10px;
+pointer-events: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-nav a {
+  font-family: "Candal", sans-serif;
+  font-size: 3vh;
+  text-decoration: none;
+  color: #515151;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+text-decoration: none;
+color: #ac6d6d;
+cursor: pointer;
+}
