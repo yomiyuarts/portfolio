@@ -1,0 +1,208 @@
+.portfolio-body {
+    background-image: url('/assets/pinkscallopbg.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    min-height: 100%;
+
+    z-index: 1;
+    overflow-x: hidden;
+
+    transition: background-image 0.6s ease-in-out;
+}
+
+
+/* Gallery */
+
+.gallery {
+    column-count: 3;
+    column-gap: 20px;
+
+    padding: 40px;
+
+    margin-top: 100px;
+
+    animation: fadeRise 1.2s ease-out forwards;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    break-inside: avoid;
+
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Modal */
+
+.modal {
+    display: none;
+
+    position: fixed;
+
+    z-index: 1000;
+
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+}
+
+.modal.active {
+    display: flex;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+
+    background-color: #fff;
+
+    padding: 20px;
+    padding-top: 60px;
+
+    border-radius: 10px;
+
+    max-width: 800px;
+    width: 90%;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    text-align: center;
+
+    animation: fadeRise 0.4s ease-out forwards;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+
+    box-sizing: border-box;
+}
+
+
+/* Modal Image */
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 60vh;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Modal Title */
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-family: 'Inknut Antiqua', serif;
+
+    color: #515151;
+
+    font-size: 28px;
+}
+
+
+/* Modal Description */
+
+.modal-content p {
+    margin-top: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: #515151;
+
+    font-size: 18px;
+}
+
+
+/* Close Button */
+
+.close-btn {
+    position: absolute;
+
+    top: 0;
+    right: 10px;
+
+    z-index: 999;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    color: #ac6d6d;
+
+    cursor: pointer;
+
+    background: white;
+
+    padding: 5px 12px;
+}
+
+
+/* Watch Button */
+
+.watch-btn {
+    display: none;
+
+    margin-top: 10px;
+
+    padding: 10px 15px;
+
+    background-color: #515151;
+    color: #f0f0f0;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    transition: background 0.3s ease;
+}
+
+.watch-btn.active {
+    display: inline-block;
+}
+
+.watch-btn:hover {
+    background-color: #ac6d6d;
+}

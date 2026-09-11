@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     min-height:100vh;
     display:flex;
@@ -16,7 +20,7 @@ body{
   color: #515151;
   padding-left: 30px;
   padding-right: 30px;
-  width: 95vw;
+  width: 93vw;
   height: 10vh;
   position: fixed;
   top: 3%;
