@@ -28,7 +28,11 @@
         text-align: center;
     }
 
-    .inside-intro h1,
+    .inside-intro h1 {
+        font-size: 1rem !important;
+        max-width: none;
+    }
+    
     .inside-intro p {
         width: 100%;
         max-width: none;
