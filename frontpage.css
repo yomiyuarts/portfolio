@@ -167,6 +167,7 @@ position: relative;
 animation: fadeRise 1.2s ease-out forwards;
 align-items: center;
 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+animation: fadeRise 1.2s ease-out forwards;
 }
 
 .card-text {
@@ -357,6 +358,7 @@ text-align: left;
     left: 0;
     border-radius: 70px 70px 0 0;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.37);
+    animation: fadeRise 1.2s ease-out forwards;
 }
 
 .footer h1 {
