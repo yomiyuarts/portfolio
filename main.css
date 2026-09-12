@@ -33,7 +33,7 @@ body{
 }
 
 .name {
-font-size: 6vh;
+font-size: 4vh;
 font-family: 'Inknut Antiqua', serif;
 font-weight: bold;
 margin-right: 10px;
@@ -59,4 +59,53 @@ pointer-events: none;
 text-decoration: none;
 color: #ac6d6d;
 cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #515151;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+    .navigation-bar {
+        width: 85vw;
+        height: 8vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .name {
+        font-size: 1.1rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px 0;
+        background-color: #D9D9D9;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .navbar-nav.active {
+        display: flex;
+    }
+
+    .navbar-nav a {
+        font-size: 1.2rem;
+    }
 }

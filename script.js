@@ -38,4 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 4. Initialize the smooth scroll
     addSmoothScroll("portfolio", "resume");
+
+    const hamburger = document.getElementById("hamburger");
+const navbarNav = document.getElementById("navbarNav");
+
+if (hamburger && navbarNav) {
+    hamburger.addEventListener("click", function () {
+        navbarNav.classList.toggle("active");
+    });
+
+}
 });
