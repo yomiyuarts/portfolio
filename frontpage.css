@@ -29,7 +29,7 @@
     }
 
     .inside-intro h1 {
-        font-size: 1rem !important;
+        font-size: 2.5rem !important;
         max-width: none;
     }
     
@@ -39,7 +39,7 @@
     }
 
     .imageko img {
-        height: 62vh !important;
+        height: 55vh !important;
         margin-bottom: 20px;
     }
 }
@@ -254,6 +254,7 @@ text-align: left;
         max-height: none;
         padding: 50px 50px;
         margin-bottom: 0;
+        background-size: cover;
     }
 
     .pinkthing h1 {
@@ -282,7 +283,7 @@ text-align: left;
 
     .pinkthing h5,
     .card-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .pinkthing p,
