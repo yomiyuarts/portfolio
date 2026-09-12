@@ -290,6 +290,15 @@ text-align: left;
         height: 50px;
         font-size: 1rem;
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    * {
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 989px) and (max-width: 1390px) {
@@ -338,6 +347,15 @@ text-align: left;
     .button {
         height: 50px;
         font-size: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    * {
+        max-width: 100%;
     }
 }
 
