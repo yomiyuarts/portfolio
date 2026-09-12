@@ -64,7 +64,7 @@
 }
 
 .imageko img {
-height: 85vh;
+height: 90vh;
 animation: fadeRise 1.2s ease-out forwards;
 }
 
@@ -108,19 +108,12 @@ animation: fadeRise 1.2s ease-out forwards;
   z-index: 1;
   position: relative;
   top: 0;
-  background-color: #ac6d6d;
+  background-image: url('assets/pinkscallop.png');
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
   max-height: 1100px;
-
-  --r: 25px; /* radius of circles */ 
-  aspect-ratio: 1; 
-  padding: calc(1.5*var(--r)); 
-  background: #ac6d6d; 
-  mask: linear-gradient(#000 0 0) no-repeat 50%/calc(100% - 2*var(--r)) calc(100% - 2*var(--r)), 
-  radial-gradient(farthest-side,#000 97%,#0000) 0 0/calc(2*var(--r)) calc(2*var(--r)) round;
 }
 
 .cards {
@@ -300,7 +293,7 @@ text-align: left;
     }
 }
 
-@media (min-width: 989px) and (max-width: 1200px) {
+@media (min-width: 989px) and (max-width: 1390px) {
 
     .pinkthing {
         aspect-ratio: auto;
@@ -402,4 +395,8 @@ text-align: left;
     color: #f0f0f0;
     text-decoration: none;
     margin-bottom: 20px;
+}
+
+.social-icons a:hover {
+    color: #ceaaaa;
 }
